@@ -8,21 +8,19 @@ namespace doubly_linked_list
         {
             Console.WriteLine("Hello World!");
 
-            Linked_List newList = new Linked_List(5);
+            Linked_List doubly = new Linked_List(1);
 
-            Console.WriteLine("");
+            doubly.Add(2);
+            doubly.Add(3);
+            doubly.Add(4);
+            doubly.Add(5);
 
-            newList.AddFirst(1);
-            newList.AddFirst(2);
-            newList.AddLast(3);
-            newList.AddFirst(4);
-            newList.Remove(1);
-
-            newList.ViewDoublyList();
-
-            Console.WriteLine();
+            doubly.Remove(1);
+            doubly.Print();
 
             Console.Read();
+
+
         }
     }
 }
