@@ -6,73 +6,53 @@ namespace doubly_linked_list
 {
     class Linked_List
     {
-        public Node Next
-        {
-            get; set;
-        }
+
+        public Node head;
+        public Node curr;
+
         public Linked_List(int data)
         {
-            Next = new Node(data);
+            head = new Node(data);
+            curr = head;
         }
-        public void AddLast(int data)
-        {
-            Node runner = Next;
 
-            while(runner.Next != null)
+        public void Add(object data)
+        {
+            Node newnode = new Node(data);
+            curr.Next = newnode;
+            newnode.Prev = curr;
+            curr = newnode;
+        }
+        public void Print()
+        {
+            curr = head;
+            while (curr.Next != null)
             {
-                runner = runner.Next;
+                Console.Write("->");
+                Console.Write(curr.Data);
+                curr = curr.Next;
+
+
             }
-            runner.Next = new Node(data);
-            runner.Next.Previous = runner;
+            Console.Write("->");
+            Console.Write(curr.Data);
+            Console.Write("->");
+            Console.Write("null");
         }
-
-        public void ViewDoublyList()
+        public void Remove(object data)
         {
-            //need to work on view method
-        }
-        public void AddFirst(int data)
-        {
-            Node current = Next;
-            Next = new Node(data);
-            Next.Next = current;
-            current.Previous = Next;
-        }
-
-        public Node RemoveFirst()
-        {
-            Node current = Next;
-            Next.Previous = null;
-            current.Next = null;
-            return current;
-        }
-
-        public Node Remove(int data)
-        {
-            Node runner = Next;
-            if(runner.Data == data)
+            curr = head;
+            while (curr.Next != null)
             {
-                return RemoveFirst();
+                if (curr.Data.ToString() == data.ToString())
+                {
+                    curr.Next.Prev = null;
+                    curr.Next.Prev = curr;
+                    curr.Next = curr.Next.Next;
+                }
+                curr = curr.Next;
             }
-            else
-            {
-                while (runner.Next != null && runner.Data != data)
-                {
-                    runner = runner.Next;
-                }
-                if(runner.Data != data)
-                {
-                    Console.WriteLine("Didn't find data.");
-                    return;
-                }
-                else
-                {
-                    runner.Previous.Next = runner.Next;
-                    runner.Next.Previous = runner.Previous;
-                    runner.Next = null;
-                    runner.Previous = null;
-                    return runner;
-                }
-            }
+            //Console.WriteLine(curr.Next.Data);
         }
     }
 }

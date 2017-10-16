@@ -6,21 +6,25 @@ namespace doubly_linked_list
 {
     class Node
     {
-        public int Data
-        {
-            get; set;
-        }
-        public Node Previous
-        {
-            get; set;
-        }
         public Node Next
         {
             get; set;
         }
-        public Node(int data)
+        public object Data
         {
-            Data = data;
+            get; set;
         }
+        public Node Prev
+        {
+            get; set;
+        }
+
+        public Node(object data)
+        {
+            Next = null;
+            Data = data;
+            Prev = null;
+        }
+
     }
 }

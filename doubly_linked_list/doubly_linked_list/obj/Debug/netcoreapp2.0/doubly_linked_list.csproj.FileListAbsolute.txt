@@ -1,0 +1,11 @@
+C:\Users\shami\Source\Repos\doubly_linked_list_with_node_deletion\doubly_linked_list\doubly_linked_list\bin\Debug\netcoreapp2.0\doubly_linked_list.deps.json
+C:\Users\shami\Source\Repos\doubly_linked_list_with_node_deletion\doubly_linked_list\doubly_linked_list\bin\Debug\netcoreapp2.0\doubly_linked_list.runtimeconfig.json
+C:\Users\shami\Source\Repos\doubly_linked_list_with_node_deletion\doubly_linked_list\doubly_linked_list\bin\Debug\netcoreapp2.0\doubly_linked_list.runtimeconfig.dev.json
+C:\Users\shami\Source\Repos\doubly_linked_list_with_node_deletion\doubly_linked_list\doubly_linked_list\bin\Debug\netcoreapp2.0\doubly_linked_list.dll
+C:\Users\shami\Source\Repos\doubly_linked_list_with_node_deletion\doubly_linked_list\doubly_linked_list\bin\Debug\netcoreapp2.0\doubly_linked_list.pdb
+C:\Users\shami\Source\Repos\doubly_linked_list_with_node_deletion\doubly_linked_list\doubly_linked_list\obj\Debug\netcoreapp2.0\doubly_linked_list.csprojResolveAssemblyReference.cache
+C:\Users\shami\Source\Repos\doubly_linked_list_with_node_deletion\doubly_linked_list\doubly_linked_list\obj\Debug\netcoreapp2.0\doubly_linked_list.csproj.CoreCompileInputs.cache
+C:\Users\shami\Source\Repos\doubly_linked_list_with_node_deletion\doubly_linked_list\doubly_linked_list\obj\Debug\netcoreapp2.0\doubly_linked_list.AssemblyInfoInputs.cache
+C:\Users\shami\Source\Repos\doubly_linked_list_with_node_deletion\doubly_linked_list\doubly_linked_list\obj\Debug\netcoreapp2.0\doubly_linked_list.AssemblyInfo.cs
+C:\Users\shami\Source\Repos\doubly_linked_list_with_node_deletion\doubly_linked_list\doubly_linked_list\obj\Debug\netcoreapp2.0\doubly_linked_list.dll
+C:\Users\shami\Source\Repos\doubly_linked_list_with_node_deletion\doubly_linked_list\doubly_linked_list\obj\Debug\netcoreapp2.0\doubly_linked_list.pdb
